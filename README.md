@@ -17,3 +17,6 @@
   * brainstorming session
   * continue agile work practices
   * continue clear and open information sharing
+
+
+  # SarahEvelynn Johnson 
