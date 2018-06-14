@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
 
 .background {
   background: url("/Assets/bg.jpg") no-repeat center fixed;
@@ -14,8 +14,8 @@ header {
   flex-direction: row;
   justify-content: space-around;
   height: 12vh;
-  background-color: #4B6150;
-  color:black;
+  background-color: #4b6150;
+  color: black;
   position: sticky;
 }
 
@@ -31,20 +31,20 @@ header {
   margin-bottom: 7rem;
 }
 
-h2{
-  display:flex;
+h2 {
+  display: flex;
   justify-content: space-around;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
 }
 
-h3{
+h3 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 1.5rem;
   font-style: italic;
   padding-left: 6rem;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
 }
 
 .formMain {
@@ -54,18 +54,18 @@ h3{
 
 .formContainer {
   margin-top: 6rem;
-  background-color: #4B6150;
+  background-color: #4b6150;
   border-radius: 15%;
   padding: 1rem;
 }
 
 label {
- font-size: 18px;
- color: white;
+  font-size: 18px;
+  color: white;
 }
 
-.brochure{
-  font-family: 'Berkshire Swash', cursive;
+.brochure {
+  font-family: "Berkshire Swash", cursive;
   font-size: 2rem;
   background: white;
   padding-left: 1rem;
@@ -81,19 +81,19 @@ label {
 
 footer {
   height: 6vh;
-  background-color: #4B6150;
-  color:black;
+  background-color: #4b6150;
+  color: black;
   position: sticky;
   justify-content: space-around;
   display: flex;
   align-items: center;
 }
 
-.about{
-  font-family: 'Berkshire Swash', cursive;
+.about {
+  font-family: "Berkshire Swash", cursive;
 }
 
-.description{
+.description {
   font-size: 2rem;
   text-align: center;
 }

@@ -7,17 +7,14 @@ body {
   height: 84vh;
 }
 
-
-
 main {
   /* padding-right: 50px; */
 }
 
-
 header {
   height: 8vh;
-  background-color: #4B6150;
-  color:black;
+  background-color: #4b6150;
+  color: black;
   position: sticky;
 }
 
@@ -25,40 +22,33 @@ header {
   padding-top: 5px;
   max-width: 50px;
   max-height: 50px;
-
 }
 
 .facePlaceholderContainer {
-    padding-top: 10px;
-justify-content: center;
-display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  display: flex;
 }
-
 
 /* .carousel {
   height: 200px;
 } */
 
-
 .carouselImage {
   max-height: 200px;
   max-width: 200px;
-
 }
-
 
 h6 {
   margin-top: 100px;
   font-size: 30px;
   font-weight: 900;
-  color:black;
+  color: black;
   /* background-color: #D3D3D3; */
 }
 
-
-
 h2 {
-  color:black;
+  color: black;
   /* background-color: white; */
 }
 
@@ -70,14 +60,13 @@ h2 {
 
 footer {
   height: 8vh;
-  background-color: #4B6150;
-  color:black;
+  background-color: #4b6150;
+  color: black;
   position: sticky;
   justify-content: center;
   display: flex;
   align-items: center;
 }
-
 
 .btn {
   z-index: 999999;
@@ -108,14 +97,11 @@ footer {
   background-size: cover;
 } */
 
-
 /*
 
 img, a {
   display: block;
 } */
-
-
 
 .facePlaceholder {
   max-height: 100px;

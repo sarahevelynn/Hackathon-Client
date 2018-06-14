@@ -1,6 +1,6 @@
 const baseURL = "https://whispering-inlet-64006.herokuapp.com/";
 
-var selectionArray = []; 
+var selectionArray = [];
 var clothesArray = [];
 var matches = [];
 
@@ -41,8 +41,7 @@ fetch(`${baseURL}clothes`)
       // divTag.appendChild(aTag);
 
       if (matches[i].type == "Top") {
-        if (
-          document.querySelector(".carouselImageTop1").src === "") {
+        if (document.querySelector(".carouselImageTop1").src === "") {
           document.querySelector(".carouselImageTop1").src = matches[i].img;
         } else if (document.querySelector(".carouselImageTop2").src === "") {
           document.querySelector(".carouselImageTop2").src = matches[i].img;
@@ -88,8 +87,10 @@ fetch(`${baseURL}clothes`)
             document.querySelector(".itemSize").textContent =
               matches[i].sizeRange;
             document.querySelector(".itemColor").textContent = matches[i].color;
-            document.querySelector(".itemStoreName").textContent = matches[i].storeName;
-            document.querySelector(".itemWebsite").textContent = matches[i].website;
+            document.querySelector(".itemStoreName").textContent =
+              matches[i].storeName;
+            document.querySelector(".itemWebsite").textContent =
+              matches[i].website;
             document.querySelector(".itemImage").src = matches[i].img;
           }
         });
